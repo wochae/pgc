@@ -1,6 +1,6 @@
-package week1;
+package week1.sort;
 
-import week1.sort.src.가장_큰_수;
+import week1.sort.가장_큰_수;
 
 public class Main {
     public static void main(String[] args) {
