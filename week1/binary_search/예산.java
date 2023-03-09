@@ -1,8 +1,6 @@
-package week1.src;
+package week1.binary_search;
 
-import java.util.Arrays;
-
-public class Sol4 {
+public class 예산 {
     public long solution(int goal, int[] durations) {
         int maxDuration = 0;
 

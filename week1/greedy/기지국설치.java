@@ -1,10 +1,10 @@
-package week1.src;
+package week1.greedy;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 기지국 설치
-public class Sol1 {
+
+public class 기지국설치 {
     public int solution(int n, int[] stations, int w) {
         int answer = 0;
         int si = 0;

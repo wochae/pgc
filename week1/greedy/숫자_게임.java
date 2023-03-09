@@ -1,8 +1,8 @@
-package week1.src;
+package week1.greedy;
 
 import java.util.Arrays;
 
-public class Sol3 {
+public class 숫자_게임 {
     public int solution(int[] A, int[] B) {
         Arrays.sort(A);
         Arrays.sort(B);
@@ -21,7 +21,7 @@ public class Sol3 {
                 bPos++;
                 answer++;
             }
-        }
+        };
         return answer;
     }
 }

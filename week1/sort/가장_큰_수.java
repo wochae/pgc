@@ -1,10 +1,9 @@
-package week1.src;
+package week1.sort;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-// 가장 큰 수
-public class Sol2 {
+public class 가장_큰_수 {
     public String solution1(int[] numbers) {
         String answer = "";
         String[] numberToStr = Arrays.stream(numbers).mapToObj(String::valueOf).toArray(String[]::new);
